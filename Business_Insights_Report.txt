@@ -1,0 +1,46 @@
+
+LOGISTICS PREDICTIVE MODELING
+Shipment Delay Prediction Using Machine Learning
+
+1. PROJECT OBJECTIVE
+The objective is to build a supervised machine learning model
+to predict whether a shipment will be delayed.
+
+2. DATASET
+- Total simulated shipments: 200
+- Input features: 5
+- Target variable: Delayed
+- 0 = Not Delayed
+- 1 = Delayed
+
+3. METHODOLOGY
+- Created a simulated logistics dataset using Python.
+- Converted shipping method categories into numerical features.
+- Split the data into 80% training and 20% testing.
+- Trained a Decision Tree Classifier.
+- Evaluated predictions using accuracy and a classification report.
+
+4. MODEL PERFORMANCE
+- Model accuracy: 97.50%
+
+5. BUSINESS INSIGHTS
+This model demonstrates how shipment distance, warehouse workload,
+order units and shipping method can be used as input features
+for predicting delivery delays.
+
+Feature importance indicates which inputs the model relied on
+most when making predictions.
+
+6. RECOMMENDATIONS
+- Monitor shipments with a higher predicted risk of delay.
+- Review warehouse workload and long-distance shipments.
+- Track delay patterns using actual operational data.
+- Retrain and validate the model using real historical shipments.
+
+7. LIMITATIONS
+This project uses simulated data and rule-generated delay labels.
+The accuracy does not establish real-world predictive performance.
+Real logistics data and further validation are needed before
+using this model for operational decisions.
+
+Tools: Python, Pandas, NumPy, Matplotlib and Scikit-learn.
